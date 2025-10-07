@@ -1,0 +1,19 @@
+# Entorno virtual
+env/
+
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+
+# PostgreSQL (no subas dumps ni credenciales)
+*.sql
+*.dump
+
+# Node
+node_modules/
+build/
+
+# Archivos de sistema
+.DS_Store
+*.log
